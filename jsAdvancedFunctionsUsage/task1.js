@@ -1,5 +1,5 @@
-function handleNum(num, isEven, is_Odd) {
-  num % 2 === 0 ? isEven() : is_Odd();
+function handleNum(num, onEven, onOdd) {
+  num % 2 === 0 ? onEven() : onOdd();
 }
 
 const handleEven = () => console.log("number is even");

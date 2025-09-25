@@ -1,9 +1,9 @@
-function kurwa(num) {
+function countToZero(num) {
   console.log(num);
   if (num <= 0) {
     return;
   }
-  kurwa(num - 1);
+  countToZero(num - 1);
 }
 
-kurwa(5);
+countToZero(5);
