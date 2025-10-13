@@ -8,7 +8,7 @@ export class EBook extends Book {
 
   printInfo() {
     console.log(
-      `Title: ${this._title}, Author: ${this._author}, Year: ${this._year}, Format: ${this._fileFormat}`
+      `Title: ${this._title}, Author: ${this._author}, Year: ${this._year}, Format: ${this._fileFormat}`,
     );
   }
 
@@ -23,7 +23,7 @@ export class EBook extends Book {
       !validFormats.includes(format.toLowerCase())
     ) {
       throw new Error(
-        `Invalid format. Supported formats are: ${validFormats.join(", ")}`
+        `Invalid format. Supported formats are: ${validFormats.join(", ")}`,
       );
     }
     this._fileFormat = format.toLowerCase();
