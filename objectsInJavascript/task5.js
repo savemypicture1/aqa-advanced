@@ -6,6 +6,6 @@ const users = [
 
 for (const { name, email, age, country } of users) {
   console.log(
-    `Name: ${name}, Email: ${email}, Age: ${age}, Country: ${country}`
+    `Name: ${name}, Email: ${email}, Age: ${age}, Country: ${country}`,
   );
 }

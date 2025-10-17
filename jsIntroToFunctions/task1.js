@@ -22,13 +22,13 @@ const calculateRectangleAreaConciseArrow = (width, height) => width * height;
 console.log("Function Declaration:", calculateAreaDeclaration(width, height));
 console.log(
   "Function Expression:",
-  calculateRectangleAreaExpression(width, height)
+  calculateRectangleAreaExpression(width, height),
 );
 console.log(
   "Arrow Function Expression:",
-  calculateRectangleAreaArrow(width, height)
+  calculateRectangleAreaArrow(width, height),
 );
 console.log(
   "Concise Arrow Function Expression:",
-  calculateRectangleAreaConciseArrow(width, height)
+  calculateRectangleAreaConciseArrow(width, height),
 );

@@ -7,7 +7,7 @@ export class Book {
 
   printInfo() {
     console.log(
-      `Title: ${this._title}, Author: ${this._author}, Year: ${this._year}`
+      `Title: ${this._title}, Author: ${this._author}, Year: ${this._year}`,
     );
   }
 
@@ -40,7 +40,7 @@ export class Book {
   set year(year) {
     if (typeof year !== "number") {
       throw new Error(
-        "Year must be a number representing the publication year"
+        "Year must be a number representing the publication year",
       );
     }
     this._year = year;
